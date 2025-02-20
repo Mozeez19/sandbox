@@ -1,2 +1,4 @@
 library(tidyverse)
-qplot()
+qplot(mpg$year)
+
+qplot(mpg$year,mpg$cty)
